@@ -27,6 +27,7 @@ public:
             }
 
             if (visited[s[i] - 'a']) {
+                characters_left[s[i] - 'a']--;
                 continue;
             }
 
